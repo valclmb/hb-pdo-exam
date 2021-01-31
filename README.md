@@ -17,7 +17,7 @@ Liste des exercices
 3. Exécution d'une requête directe (SELECT) (2 points)
 4. Exécution d'une requête préparée (INSERT) (3 points)
 5. Exécution d'une requête préparée (SELECT) (4 points)
-6. Mise à jour de la table de liaison (product_has_category) (2 points)
+6. Mise à jour de la table de liaison (product_has_category) (3 points)
 7. Insertion de données dans plusieurs tables en parallèle (5 points)
 
 ## 0. Importer la base de données
@@ -67,7 +67,7 @@ Liste des exercices
   - [ ] Compléter l'affichage HTML déjà présent dans le fichier (les données doivent s'afficher)
 - [ ] Faire un commit
 
-## 6. Mise à jour de la table de liaison (product_has_category) (2 points)
+## 6. Mise à jour de la table de liaison (product_has_category) (3 points)
 
 - Dans le fichier `6-update-categories.php`
   - [ ] Utiliser la connexion créée dans le fichier `includes/connect.php` pour récupérer les données contenues dans la table `product`. Ne récupérer **que** les bonnets n'ayant pas de catégories (indice SQL : `LEFT JOIN` et `IS NULL` se révèlent utiles ici, mais ne sont pas obligatoires)
