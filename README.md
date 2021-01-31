@@ -7,8 +7,8 @@ Pour travailler sur ce projet :
 - À la fin de l'examen, vous **devez** envoyer un zip de votre code sur Moodle et vous **pouvez** faire une PR à destination du projet d'origine (afin de faciliter mes retours pour la correction)
 
 La durée prévue est d'environ 3h. Des points peuvent être perdus pour le retard du rendu :
-- 1 point si le rendu est fait après 20h
-- 2 point si le rendu est fait après 23h59 (et 59 secondes)
+- 1 point si le rendu est fait après 18h
+- 2 point si le rendu est fait après 20h
 
 Liste des exercices
 0. Importer la base de données
