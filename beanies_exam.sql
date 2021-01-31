@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : Dim 31 jan. 2021 à 20:47
+-- Généré le : Dim 31 jan. 2021 à 21:34
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `beanies`
+-- Base de données : `beanies_exam`
 --
-CREATE DATABASE IF NOT EXISTS `beanies` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `beanies`;
+CREATE DATABASE IF NOT EXISTS `beanies_exam` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `beanies_exam`;
 
 -- --------------------------------------------------------
 

@@ -22,7 +22,7 @@ Liste des exercices
 
 ## 0. Importer la base de données
 
-- À la racine de ce projet, vous trouverez un fichier `beanies.sql`. Il vous faudra :
+- À la racine de ce projet, vous trouverez un fichier `beanies_exam.sql`. Il vous faudra :
   - [ ] Importer la base de données `beanies` dans PhpMyAdmin (la base de données est créée automatiquement)
   - [ ] Parcourez-la pour en comprendre le fonctionnement (elle contient 3 tables)
 - [ ] Faire un commit
