@@ -47,6 +47,16 @@ Matière: 32 % Laine, 32 % Polyamide, 30 % Viscose, 3 % Cashmere 3 % Autres fibr
 ];
 
 
- $sql = "INSERT INTO `computer`(`name`) VALUES ('ASTUS Rogue One'), ('Sansong Galaxy Truc')";
-    $count = $connection->exec($sql);
+ foreach ($data as $value) {
+     $name = $value['name'];
+     $desc = $value['description'];
+     $price = $value['price'];
+     $stock = $value['stock'];
 
+     $sql = "INSERT INTO product(name,description,updated_at,price,stock) VALUES ('$name','$desc',NOW(),'$price','$stock')";
+
+     $ret = $connection->exec($sql);
+     if (!$ret) {
+         exit("Erreur lors de l\'insertion de la donnée : " . $value['name']);
+     }
+ }
