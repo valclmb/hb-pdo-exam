@@ -2,7 +2,7 @@
 
 include 'includes/connect.php';
 
-$sql = "SELECT product.name'cateogorie', description, price, category.name'categorie', stock FROM product 
+$sql = "SELECT product.name'name', description, price, category.name'categorie', stock FROM product 
         LEFT JOIN category ON product.id = category.id";
     $statement = $connection->prepare($sql);
     $isDone = $statement->execute();
