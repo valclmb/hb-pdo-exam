@@ -52,3 +52,5 @@ $sql = "SELECT  product.name'name', description, price, category.name'categorie'
                 </tr>';
 } ?>
 </table>
+
+<?php
